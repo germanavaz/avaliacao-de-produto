@@ -1,0 +1,152 @@
+html, body {
+    font-family: 'Inter', sans-serif;
+    background-image: linear-gradient(#0F0A31, #3F347E);
+    height: 100vh;
+}
+
+
+#bloco {
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+#top {
+    border-radius: 1.25rem 1.25rem 0rem 0rem;
+    background: linear-gradient(77deg, #4453B2 -0.41%, #502C9E 98.95%);
+    display: flex;
+    justify-content: space-between;
+}
+
+#top img {
+    width: 8.75rem;
+    
+}
+
+#content {
+    background-color: #fafafa;
+    display: flex;
+    padding: 3rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    align-self: center;
+    text-align: center;
+    border-radius: 0rem 0rem 1.25rem 1.25rem ;
+    
+}
+
+#title h1 {
+    font-weight: 700;
+    line-height: 130%;
+}
+
+#title p {
+    font-weight: 400;
+    line-height: 150%;
+}
+
+#content span {
+    color: #4439C7;
+}
+
+
+#stars {
+    padding: 0.5rem 0 0 0;
+    gap: 0.5rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#helper-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #75747A;
+}
+
+#button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+
+    background-color: #685ED9;
+    border-radius: 0.5rem;
+    padding: 1rem 1.25rem;
+
+    color: #fafafa;
+    font-weight: 700;
+    line-height: 150%;
+
+    border: none;
+    align-self: center;
+    cursor: pointer;
+
+    color: #fafafa;
+    text-decoration: none;
+}
+
+
+#button a:hover {
+    background-color: #4439C7;
+}
+
+
+/* estrelas */
+ .starfill {
+    background: -webkit-linear-gradient(#f9d399, #d4983e);  
+    background: linear-gradient(#f9d399, #d4983e); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+ }
+
+.ph-star {
+    color: #E3E1E4;
+    padding: 0.5rem;
+}
+
+.ph-star:hover {
+    border-radius: 62.4375rem;
+    background-color: #faf2e7;
+    cursor: pointer;
+    
+}
+
+.transp {
+    color: transparent;
+}
+
+
+/* step2  */
+
+textarea {
+    background-color: #E3E1E4;
+    border-radius: 0.5rem;
+    color: #75747A;
+    padding: 0.75rem;
+
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+
+    border: none;
+    width: 300px;
+    /* height: 200px; */
+}
+
+.setinha-volta {
+    color: #fafafa;
+    
+}
+
+#top a {
+    text-align: left;
+    justify-content: flex-start;
+    text-decoration: none;
+    padding: 0.7rem;
+}
