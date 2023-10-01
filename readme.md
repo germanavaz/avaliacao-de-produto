@@ -26,7 +26,7 @@ Aqui estão algumas capturas de tela do layout do nosso Widget de Avaliação de
 
 > Página para deixar seu comentário
 
-> ![Captura de Tela 3](./imgs/captura3.png)
+![Captura de Tela 3](./imgs/captura3.png)
 
 > Página de agradecimento
 
