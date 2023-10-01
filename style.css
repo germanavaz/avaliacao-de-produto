@@ -14,7 +14,7 @@ html, body {
     border-radius: 1.25rem 1.25rem 0rem 0rem;
     background: linear-gradient(77deg, #4453B2 -0.41%, #502C9E 98.95%);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #top img {
