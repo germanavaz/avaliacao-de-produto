@@ -45,7 +45,7 @@ html, body {
     line-height: 150%;
 }
 
-#content span {
+#content #title span {
     color: #4439C7;
 }
 
@@ -94,25 +94,21 @@ html, body {
 
 
 /* estrelas */
- .starfill {
-    background: -webkit-linear-gradient(#f9d399, #d4983e);  
-    background: linear-gradient(#f9d399, #d4983e); 
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
+
+.star.active {
+    color:  #d4983e;  
  }
 
-.ph-star {
+.star {
     color: #E3E1E4;
     padding: 0.5rem;
 }
 
-.ph-star:hover {
-    border-radius: 62.4375rem;
+.star:hover {
+    border-radius: 60rem;
     background-color: #faf2e7;
     cursor: pointer;
-    
+    color:  #d4983e;  
 }
 
 .transp {
